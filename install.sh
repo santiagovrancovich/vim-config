@@ -6,6 +6,7 @@ shopt -s extglob
 plugins=(
   morhetz/gruvbox
   vim-airline/vim-airline
+  preservim/nerdtree
 )
 
 # Remove any old plugins
@@ -16,7 +17,8 @@ mkdir -p $HOME/.vim/pack/bundle/start
 cp -i .vimrc ~/.vimrc
 
 installplugin() {
-  # This removes the GitHub username and two common Vim plugin name prefix/sufixes
+  # This removes the GitHub username and two common Vim plugin name
+  # prefix/sufixes
   local plugin="$(echo "$1" | sed -e 's/.*[\/]//' -e 's/^vim-//' -e 's/\.vim//')"
   local pluginpath="$HOME/.vim/pack/bundle/start/$plugin"
 
