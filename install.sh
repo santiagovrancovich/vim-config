@@ -7,6 +7,7 @@ plugins=(
   morhetz/gruvbox
   vim-airline/vim-airline
   preservim/nerdtree
+  sheerun/vim-polyglot
 )
 
 # Remove any old plugins
