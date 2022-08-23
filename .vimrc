@@ -26,3 +26,6 @@ nnoremap <silent> <expr> <C-b> g:NERDTree.IsOpen() ? "\:NERDTreeClose<CR>" : buf
 "Toggle and delete buffers
 map <C-g> :bn<CR>
 map <C-d> :bd<CR>
+
+"Select all text
+map <C-a> ggVG<End>
