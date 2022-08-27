@@ -20,6 +20,12 @@ set encoding=utf-8
 "Allow sharing system clipboard
 set clipboard=unnamedplus
 
+"Copy with xclip in case clipboard is disabled, so it can interact with the
+"X server clipboard
+if !has('clipboard')
+    map <silent> <C-y> :w !xclip -selection clipboard<CR><CR>
+endif
+
 "Toggle NerdTree
 nnoremap <silent> <C-b> :NERDTreeToggle<CR>
 
