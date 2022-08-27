@@ -21,7 +21,7 @@ set encoding=utf-8
 set clipboard=unnamedplus
 
 "Toggle NerdTree
-nnoremap <silent> <expr> <C-b> g:NERDTree.IsOpen() ? "\:NERDTreeClose<CR>" : bufexists(expand('%')) ? "\:NERDTreeFind<CR>" : "\:NERDTree<CR>"
+nnoremap <silent> <C-b> :NERDTreeToggle<CR>
 
 "Toggle and delete buffers
 map <C-g> :bn<CR>
