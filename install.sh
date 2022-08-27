@@ -6,7 +6,7 @@ shopt -s extglob
 plugins=(
   morhetz/gruvbox
   vim-airline/vim-airline
-  preservim/nerdtree
+  santiagovrancovich/nerdtree
   sheerun/vim-polyglot
 )
 
