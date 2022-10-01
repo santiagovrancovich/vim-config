@@ -10,6 +10,9 @@ plugins=(
   sheerun/vim-polyglot
   jiangmiao/auto-pairs
   ervandew/supertab
+  xolox/vim-easytags
+  xolox/vim-misc
+  vim-scripts/AutoComplPop
 )
 
 # Remove any old plugins

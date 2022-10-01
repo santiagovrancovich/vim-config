@@ -17,6 +17,12 @@ set autoindent
 set fileformat=unix
 set encoding=utf-8
 
+"Code completion
+set completeopt=menuone
+
+"Tags generation for code completion
+autocmd VimEnter * UpdateTags getcwd()
+
 "Allow sharing system clipboard
 set clipboard=unnamedplus
 
