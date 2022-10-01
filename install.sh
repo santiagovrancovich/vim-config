@@ -8,6 +8,8 @@ plugins=(
   vim-airline/vim-airline
   santiagovrancovich/nerdtree
   sheerun/vim-polyglot
+  jiangmiao/auto-pairs
+  ervandew/supertab
 )
 
 # Remove any old plugins
