@@ -23,6 +23,9 @@ set completeopt=menuone
 "Tags generation for code completion
 autocmd VimEnter * UpdateTags getcwd()
 
+"Snippets
+let g:snipMate = { 'snippet_version' : 1 }
+
 "Allow sharing system clipboard
 set clipboard=unnamedplus
 

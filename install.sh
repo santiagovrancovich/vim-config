@@ -12,7 +12,10 @@ plugins=(
   ervandew/supertab
   xolox/vim-easytags
   xolox/vim-misc
-  vim-scripts/AutoComplPop
+  MarcWeber/vim-addon-mw-utils
+  tomtom/tlib_vim
+  garbas/vim-snipmate
+  honza/vim-snippets
 )
 
 # Remove any old plugins
