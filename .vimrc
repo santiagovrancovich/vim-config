@@ -44,3 +44,7 @@ map <C-d> :bd<CR>
 
 "Select all text
 map <C-a> ggVG<End>
+
+"Command aliases
+command! -nargs=* SS %s/<args>/gc
+command! -nargs=* SearchAndReplace %s/<args>/gc
